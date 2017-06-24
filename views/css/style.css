@@ -1,0 +1,14 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    .article-list {
+    	padding-left: 5px;
+    	padding-right: 5px;
+    }
+
+    .container {
+    	max-width: 85%;
+    }
