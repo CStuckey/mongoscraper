@@ -231,7 +231,9 @@ app.post("/unsavedarticles/:id", function(req, res) {
 	res.redirect("/savedarticles");
 });
 
+const PORT = process.env.PORT || 3000
+
 // Listen on PORT 3000
-app.listen(3000, function() {
+app.listen(PORT, function() {
 	console.log("App running on port 3000");
 });
